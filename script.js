@@ -73,7 +73,7 @@ function generatePassword() {
 
     // validate if user selected at least one character type or not.
     if (passwordPolicy.length === 1) {
-      confirm("You have to select at least one character type to be included in password. Please check again.")
+      confirm("Oops! At least one character type to be included in password should be selected. Please check again.")
     }
   } while (passwordPolicy.length === 1)
 
