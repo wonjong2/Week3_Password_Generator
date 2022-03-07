@@ -9,7 +9,7 @@ After user answers these questions, a new password which is generated based on u
 - Use 'Prompt box' and 'Confirm box' to get input from user.
 - Store user inputs to 'passwordPolicy' array.
 - Use 'while' and 'do while' loop to validate user inputs and ask again.
-- Define arrays have alphabet(lowercase and uppercase) characters and special characters to pick up while the web site is making a new password. 
+- Define arrays have alphabet(lowercase and uppercase) characters and special characters to pick up while the web site is creating a new password. 
 - Create 'generateRandomChar' function to determine a single random character.
 
 ## Web Site's URL
@@ -26,7 +26,7 @@ https://wonjong2.github.io/Week3_Password_Generator/
 - If user inputs the number not in the valid range(8~128), the web site asks user it again until user inputs valid number.
 - If user doesn't select any character types, the web site asks user them again until user selects at least one character type.
 - When all inputs from user are validated, the web site generates a new password and display it on the screen.
-- __Simple Demo__ : https://watch.screencastify.com/v/qpZMIS3KgBERIE50quGm
+- __Simple Demo__ : https://watch.screencastify.com/v/ImMADFavFRHkFsOV2UiU
 
 Please see the screenshots on this Website.
 
