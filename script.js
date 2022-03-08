@@ -72,6 +72,7 @@ function generatePassword() {
     }
 
     // validate if user selected at least one character type or not.
+    // 'passwordPolicy.length === 1' means user doesn't select any character type, ask again !!
     if (passwordPolicy.length === 1) {
       confirm("Oops! At least one character type to be included in password should be selected. Please check again.")
     }
@@ -79,8 +80,8 @@ function generatePassword() {
 
   // generate a new password based on user's answer
   for (var i = 0; i < passwordPolicy[0]; i++) {
-    // generate one random character
-    typeOfChar = ((Math.floor(Math.random() * 100) + 1)%(passwordPolicy.length-1)) + 1;
+    // generate one random character, which type of character
+    typeOfChar = ((Math.floor(Math.random() * 10) + 1)%(passwordPolicy.length-1)) + 1;
     generatedPassword += generateRandomChar(passwordPolicy[typeOfChar][0]);
     passwordPolicy[typeOfChar][1] = "Included";
 

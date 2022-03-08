@@ -11,6 +11,7 @@ After user answers these questions, a new password which is generated based on u
 - Use 'while' and 'do while' loop to validate user inputs and ask again.
 - Define arrays have alphabet(lowercase and uppercase) characters and special characters to pick up while the web site is creating a new password. 
 - Create 'generateRandomChar' function to determine a single random character.
+- Use 'Math.floor' and 'Math.random' to generate a random value to determine the type of character and select one random character from the determined character type.
 
 ## Web Site's URL
 
