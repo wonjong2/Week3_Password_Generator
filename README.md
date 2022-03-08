@@ -31,13 +31,13 @@ https://wonjong2.github.io/Week3_Password_Generator/
 
 Please see the screenshots on this Website.
 
-- The first screen when user opens this web site<br>
+- The first screen when user opens this web site.<br>
     ![First Page](images/launchScreen.jpg)
 
-- User needs to answer serveral questions and validation flow of the user inputs<br>
+- User needs to answer serveral questions. Please see the validation flow of the user inputs.<br>
     ![Questions](/images/validateflow.jpg)
 
-- A new password shown on the screen <br>
+- A new password shown on the screen. <br>
     ![Result](/images/result.jpg) 
 
 
